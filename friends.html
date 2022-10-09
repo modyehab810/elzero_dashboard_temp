@@ -1,0 +1,435 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends</title>
+    <!-- Normalization File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Used Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="sidebar">
+        <h3>HoBaa</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="setting.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <!-- Start Header -->
+        <header>
+          <div class="search-wrapper">
+            <label for="serach-input">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input type="text" id="serach-input" placeholder="Type A Keyword" />
+          </div>
+
+          <div class="user-wrapper">
+            <button class="notification-btn">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="vector-btn">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </button>
+          </div>
+        </header>
+        <!-- End Header -->
+        <h1 class="main-header">Friends</h1>
+
+        <!-- Start friends page -->
+        <div class="friends-page">
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend01.jpg" alt="my friend" />
+              <h4 class="friend-name">Muhammad Zezo</h4>
+              <p>Data Scientist</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>95 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>22 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>25 Articles</span>
+              </div>
+              <img src="imgs/vip.png" alt="VIP Image" class="vip" />
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">20/10/2019</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend02.jpg" alt="my friend" />
+              <h4 class="friend-name">Muhammad Sammy</h4>
+              <p>Mobile developer</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>76 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>15 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>12 Articles</span>
+              </div>
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">20/10/2019</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend03.jpg" alt="my friend" />
+              <h4 class="friend-name">Muhammad Osama</h4>
+              <p>Bioinformatician</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>88 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>5 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>10 Articles</span>
+              </div>
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">10/12/2020</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend04.png" alt="my friend" />
+              <h4 class="friend-name">Muhammad Sala7</h4>
+              <p>Front-End developer</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>74 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>15 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>4 Articles</span>
+              </div>
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">4/10/2019</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend05.jpg" alt="my friend" />
+              <h4 class="friend-name">Ali Hashem</h4>
+              <p>Back-End Developer</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>102 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>9 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>2 Articles</span>
+              </div>
+              <img src="imgs/vip.png" alt="VIP Image" class="vip" />
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">20/10/2019</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend06.jpg" alt="my friend" />
+              <h4 class="friend-name">Amr Gaber</h4>
+              <p>ASP.Net Developer</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>19 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>6 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>3 Articles</span>
+              </div>
+              <img src="imgs/vip.png" alt="VIP Image" class="vip" />
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">02/8/2021</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend08.jpg" alt="my friend" />
+              <h4 class="friend-name">Muhammad Te7a</h4>
+              <p>Full-Stack Developer</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>10 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>20 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>12 Articles</span>
+              </div>
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">20/3/2021</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend09.jpg" alt="my friend" />
+              <h4 class="friend-name">A7med Sale7</h4>
+              <p>Mobile Developer</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>9 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>20 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>5 Articles</span>
+              </div>
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">1/4/2022</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+
+          <!-- Friend Box -->
+          <section class="friend-box">
+            <div class="contact-btns">
+              <button><i class="fa-solid fa-phone"></i></button>
+              <button><i class="fa-regular fa-envelope"></i></button>
+            </div>
+            <div class="friend-info">
+              <img src="imgs/friends/friend10.jpg" alt="my friend" />
+              <h4 class="friend-name">Muhammad A.Farouk</h4>
+              <p>embedded systems Engineering</p>
+            </div>
+
+            <div class="friend-contibutions">
+              <div>
+                <span><i class="fa-regular fa-face-smile"></i></span
+                ><span>61 Friends</span>
+              </div>
+              <div>
+                <span><i class="fa-solid fa-circle-nodes"></i></span
+                ><span>7 Projects</span>
+              </div>
+              <div>
+                <span><i class="fa-regular fa-newspaper"></i></span
+                ><span>4 Articles</span>
+              </div>
+            </div>
+
+            <div class="control-btns">
+              <p>joined <span class="joined-date">2/6/2022</span></p>
+              <div class="btns">
+                <button class="go-profile-btn">profile</button>
+                <button class="remove-btn">remove</button>
+              </div>
+            </div>
+          </section>
+        </div>
+        <!-- End friends page -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

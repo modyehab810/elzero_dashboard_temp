@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Files</title>
+    <!-- Normalization File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Used Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="sidebar">
+        <h3>HoBaa</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="setting.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <!-- Start Header -->
+        <header>
+          <div class="search-wrapper">
+            <label for="serach-input">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input type="text" id="serach-input" placeholder="Type A Keyword" />
+          </div>
+          <div class="user-wrapper">
+            <button class="notification-btn">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="vector-btn">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </button>
+          </div>
+        </header>
+        <!-- End Header -->
+        <h1 class="main-header">Files Manager</h1>
+
+        <!-- Start File Manager page -->
+        <div class="file-manager-page">
+          <!-- all files side -->
+          <section class="files">
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/html.png" alt="file image" />
+                <p class="file-name">Elzero.html</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">20/10/2019</span>
+                <span class="file-space">1.2MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/avi.png" alt="file image" />
+                <p class="file-name">black-Clover.avi</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">20/12/2019</span>
+                <span class="file-space">500MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/js.png" alt="file image" />
+                <p class="file-name">ezero-dashboard.js</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">2/10/2020</span>
+                <span class="file-space">0.6MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/css.png" alt="file image" />
+                <p class="file-name">dashboard-style.css</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">15/112/2020</span>
+                <span class="file-space">2MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/pdf.png" alt="file image" />
+                <p class="file-name">js-cheat-sheet.pdf</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">2/10/2022</span>
+                <span class="file-space">500MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/html.png" alt="file image" />
+                <p class="file-name">admin-dahsboard.html</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">20/10/2022</span>
+                <span class="file-space">5.9MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/zip.png" alt="file image" />
+                <p class="file-name">travelling-website.zib</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">7/6/2022</span>
+                <span class="file-space">300MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/psd.png" alt="file image" />
+                <p class="file-name">anime-dahsboard.psd</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">2/8/2021</span>
+                <span class="file-space">1GB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/js.png" alt="file image" />
+                <p class="file-name">my-file.js</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">20/10/2022</span>
+                <span class="file-space">1.2MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/xls.png" alt="file image" />
+                <p class="file-name">supporter-user.xls</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">30/9/2022</span>
+                <span class="file-space">3.2MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/ppt.png" alt="file image" />
+                <p class="file-name">git-github.ppt</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">1/10/2022</span>
+                <span class="file-space">1.2MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/sql.png" alt="file image" />
+                <p class="file-name">importantQueries.sql</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">5/4/2020</span>
+                <span class="file-space">12MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/svg.png" alt="file image" />
+                <p class="file-name">new_Logo.png</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">9/6/2020</span>
+                <span class="file-space">560MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/html.png" alt="file image" />
+                <p class="file-name">Elzero_temo04.html</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">20/10/2019</span>
+                <span class="file-space">1.2MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/html.png" alt="file image" />
+                <p class="file-name">test-file.txt</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">20/10/2019</span>
+                <span class="file-space">120KB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/zip.png" alt="file image" />
+                <p class="file-name">elzero_temp02.zib</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">2/10/2020</span>
+                <span class="file-space">0.6MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/pdf.png" alt="file image" />
+                <p class="file-name">HTML_Cheat_sheet.pdf</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">2/10/2022</span>
+                <span class="file-space">500MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/avi.png" alt="file image" />
+                <p class="file-name">AURAN.avi</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">7/9/2022</span>
+                <span class="file-space">200MB</span>
+              </div>
+            </div>
+
+            <!-- file box -->
+            <div class="file-box">
+              <button class="download-btn">
+                <i class="fa-solid fa-download"></i>
+              </button>
+              <div class="file-info">
+                <img src="imgs/upload/sql.png" alt="file image" />
+                <p class="file-name">get-userWithA.sql</p>
+              </div>
+              <h4 class="file-uploader">Admin</h4>
+              <div class="upload-detials">
+                <span class="uploaded-date">5/6/2020</span>
+                <span class="file-space">1.2MB</span>
+              </div>
+            </div>
+          </section>
+          <!-- file statistics Side -->
+          <section class="file-statistics">
+            <h3 class="header">File Statistics</h3>
+            <div class="box">
+              <span><i class="fa-regular fa-file-pdf"></i></span>
+              <div class="details">
+                <h4 class="title">PDF Files</h4>
+                <p class="counter">120</p>
+              </div>
+              <p class="space">5.49GB</p>
+            </div>
+
+            <div class="box">
+              <span><i class="fa-regular fa-images"></i></span>
+              <div class="details">
+                <h4 class="title">Images</h4>
+                <p class="counter">90</p>
+              </div>
+              <p class="space">10.6GB</p>
+            </div>
+
+            <div class="box">
+              <span><i class="fa-regular fa-file-word"></i></span>
+              <div class="details">
+                <h4 class="title">Word File</h4>
+                <p class="counter">30</p>
+              </div>
+              <p class="space">3.6GB</p>
+            </div>
+
+            <div class="box">
+              <span><i class="fa-solid fa-file-csv"></i></span>
+              <div class="details">
+                <h4 class="title">CSV File</h4>
+                <p class="counter">30</p>
+              </div>
+              <p class="space">2.9GB</p>
+            </div>
+          </section>
+        </div>
+        <!-- End File Manager page -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

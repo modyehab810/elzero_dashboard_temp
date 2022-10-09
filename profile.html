@@ -1,0 +1,343 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Profile</title>
+    <!-- Normalization File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Used Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="sidebar">
+        <h3>HoBaa</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="setting.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <!-- Start Header -->
+        <header>
+          <div class="search-wrapper">
+            <label for="serach-input">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input type="text" id="serach-input" placeholder="Type A Keyword" />
+          </div>
+          <div class="user-wrapper">
+            <button class="notification-btn">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="vector-btn">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </button>
+          </div>
+        </header>
+        <!-- End Header -->
+        <h1 class="main-header">Profile</h1>
+
+        <!-- Start Wrapper -->
+        <div class="profile-page">
+          <!-- Start Profile Info Box -->
+          <section class="profile-info-box">
+            <div class="left-side">
+              <img src="imgs/user-avatar.jpg" alt="user Avatar" />
+              <h4 class="user-name">Muhammad Ehab</h4>
+              <p class="lvl">Level 21</p>
+              <div class="level-prog"></div>
+              <div class="rate">
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star"></i></span>
+                <span><i class="fa-solid fa-star-half-stroke"></i></span>
+              </div>
+              <p>570 rating</p>
+            </div>
+            <div class="right-side">
+              <div class="row">
+                <h5 class="row-header">general information</h5>
+                <div class="info">
+                  <p>Full Name: <span class="username">Muhammad Ehab</span></p>
+                  <p>gender: <span class="gender">male</span></p>
+                  <p>country: <span class="country">egypt</span></p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <h5 class="row-header">personal information</h5>
+                <div class="info">
+                  <p>email: <span class="email">khalilm5@yahoo.com</span></p>
+                  <p>phone: <span class="phone">01020478651</span></p>
+                  <p>DOB: <span class="dob">9/10/2000</span></p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <h5 class="row-header">job information</h5>
+                <div class="info">
+                  <p>title: <span class="email">front-End Developer</span></p>
+                  <p>programming language: <span class="phone">JS</span></p>
+                  <p>year of exp.: <span class="dob">2+</span></p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" checked />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+
+              <div class="row">
+                <h5 class="row-header">billing information</h5>
+                <div class="info">
+                  <p>payment method: <span>paypal</span></p>
+                  <p>email: <span>private@site.net</span></p>
+                  <p>subscription: <span>monthly</span></p>
+                  <label>
+                    <input class="toggle-checkbox" type="checkbox" />
+                    <div class="toggle-switch"></div>
+                  </label>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Profile Info Box -->
+
+          <!-- Start My skills Box -->
+          <section class="my-skills-box">
+            <div class="regular-box-tilte">
+              <h2>my skills</h2>
+              <p>completet skills list</p>
+            </div>
+            <div class="skills">
+              <div class="row">
+                <p class="badge">HTML</p>
+                <p class="badge">Pugjs</p>
+              </div>
+              <div class="row">
+                <p class="badge">CSS</p>
+                <p class="badge">SASS</p>
+                <p class="badge">LESS</p>
+              </div>
+              <div class="row">
+                <p class="badge">JavaScript</p>
+                <p class="badge">TypeScript</p>
+              </div>
+              <div class="row">
+                <p class="badge">VueJs</p>
+                <p class="badge">ReactJs</p>
+              </div>
+              <div class="row">
+                <p class="badge">PHP</p>
+                <p class="badge">Laravel</p>
+              </div>
+              <div class="row">
+                <p class="badge">Pyhone</p>
+                <p class="badge">C#</p>
+                <p class="badge">C++</p>
+              </div>
+            </div>
+          </section>
+          <!-- End My skills Box -->
+
+          <!-- Start Latest Activities Box -->
+          <section class="latest-activity-box">
+            <div class="regular-box-tilte">
+              <h2>latest activities</h2>
+              <p>latest activities done by users</p>
+            </div>
+            <div class="activities">
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/shopping-online.png"
+                  alt="Store Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Store</h4>
+                  <p class="info">bought the front-End Diploma</p>
+                </div>
+                <p class="date">
+                  <span>10:00</span>
+                  <span>today</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/shopping-online.png"
+                  alt="Store Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Store</h4>
+                  <p class="info">bought the mastering python course</p>
+                </div>
+                <p class="date">
+                  <span>12:20</span>
+                  <span>yesterday</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/certification.png"
+                  alt="certifucation Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Academy</h4>
+                  <p class="info">Got The JS Certification</p>
+                </div>
+                <p class="date">
+                  <span>20:00</span>
+                  <span>yesterday</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/shopping-online.png"
+                  alt="Store Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Store</h4>
+                  <p class="info">bought the JavaScript Course</p>
+                </div>
+                <p class="date">
+                  <span>15:8</span>
+                  <span>yesterday</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img src="imgs/latest_activity/reward.png" alt="badge Image" />
+                <div class="activity-details">
+                  <h4 class="activity-title">Badges</h4>
+                  <p class="info">unlocked the 10 skills badge</p>
+                </div>
+                <p class="date">
+                  <span>18:28</span>
+                  <span>yesterday</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/certification.png"
+                  alt="certification Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Academy</h4>
+                  <p class="info">got the PHP certification</p>
+                </div>
+                <p class="date">
+                  <span>22:26</span>
+                  <span>yesterday</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/reward.png"
+                  alt="certification Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Badges</h4>
+                  <p class="info">unlocked the 50 skills badge</p>
+                </div>
+                <p class="date">
+                  <span>20:36</span>
+                  <span>2 days ago</span>
+                </p>
+              </div>
+
+              <div class="row">
+                <img
+                  src="imgs/latest_activity/shopping-online.png"
+                  alt="certification Image"
+                />
+                <div class="activity-details">
+                  <h4 class="activity-title">Store</h4>
+                  <p class="info">bought the Full-Stack Diploma</p>
+                </div>
+                <p class="date">
+                  <span>08:37</span>
+                  <span>3 days ago</span>
+                </p>
+              </div>
+            </div>
+          </section>
+          <!-- End Latest Activities Box -->
+        </div>
+        <!-- End Wrapper -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

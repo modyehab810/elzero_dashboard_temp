@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Settings</title>
+    <!-- Normalization File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Used Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="sidebar">
+        <h3>HoBaa</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a class="active" href="setting.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <!-- Start Header -->
+        <header>
+          <div class="search-wrapper">
+            <label for="serach-input">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input type="text" id="serach-input" placeholder="Type A Keyword" />
+          </div>
+          <div class="user-wrapper">
+            <button class="notification-btn">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="vector-btn">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </button>
+          </div>
+        </header>
+        <!-- End Header -->
+        <h1 class="main-header">Settings</h1>
+
+        <!-- Start Wrapper -->
+        <div class="settings-page">
+          <!-- Start Website Control Box -->
+          <section class="site-control-box">
+            <div class="regular-box-tilte">
+              <h2 class="setting-box-name">Site control</h2>
+              <p>control the website if there is maintenance</p>
+            </div>
+            <div class="controller">
+              <div>
+                <h4>Website Control</h4>
+                <p>Open/Close Website And Type The Reasone</p>
+              </div>
+              <label>
+                <input class="toggle-checkbox" type="checkbox" checked />
+                <div class="toggle-switch"></div>
+              </label>
+            </div>
+            <form>
+              <div>
+                <textarea
+                  name="close-msg"
+                  id="close-msg"
+                  placeholder="Close Message Content"
+                ></textarea>
+              </div>
+            </form>
+          </section>
+          <!-- End Website Control Box -->
+
+          <!-- Start General Info Box -->
+          <section class="general-info-box">
+            <div class="regular-box-tilte">
+              <h2 class="setting-box-name">general info</h2>
+              <p>general information about your account</p>
+            </div>
+            <form class="change-my-info">
+              <div>
+                <label for="firstname">first name</label>
+                <input
+                  type="text"
+                  name="firstname"
+                  id="firstname"
+                  value="Muhammad"
+                />
+              </div>
+              <div>
+                <label for="lastname">last name</label>
+                <input type="text" name="lastname" id="lastname" value="Ehab" />
+              </div>
+              <div>
+                <label for="email">email</label>
+                <span>
+                  <input
+                    type="email"
+                    name="email"
+                    id="email"
+                    value="khalilm5@yahoo.com"
+                    disabled
+                  />
+                  <button class="change-email-btn">Change</button>
+                </span>
+              </div>
+            </form>
+          </section>
+          <!-- End General Info Box -->
+
+          <!-- Start Security Info Box -->
+          <section class="security-info-box">
+            <div class="regular-box-tilte">
+              <h2 class="setting-box-name">Security info</h2>
+              <p>security information about your account</p>
+            </div>
+
+            <div class="security-info">
+              <div class="box">
+                <div class="info-details">
+                  <h4 class="info-title">Password</h4>
+                  <p class="info">Last Change on 9/9/2021</p>
+                </div>
+                <button class="change-password-btn">Change</button>
+              </div>
+
+              <div class="box">
+                <div class="info-details">
+                  <h4 class="info-title">Two Factor authentication</h4>
+                  <p class="info">enable/disable the feature</p>
+                </div>
+                <label>
+                  <input class="toggle-checkbox" type="checkbox" checked />
+                  <div class="toggle-switch"></div>
+                </label>
+              </div>
+
+              <div class="box">
+                <div class="info-details">
+                  <h4 class="info-title">Devices</h4>
+                  <p class="info">check the login devices list</p>
+                </div>
+                <button class="display-devices-btn">devices</button>
+              </div>
+            </div>
+          </section>
+          <!-- End Security Info Box -->
+
+          <!-- Start Socila Info Box -->
+          <section class="social-info-box">
+            <div class="regular-box-tilte">
+              <h2 class="setting-box-name">social info</h2>
+              <p>social media information</p>
+            </div>
+
+            <div class="social-media">
+              <div class="box">
+                <label class="icon"><i class="fa-brands fa-twitter"></i></label>
+                <input
+                  type="text"
+                  name="twitter-username"
+                  id="twitter-username"
+                  value="momo810"
+                />
+              </div>
+
+              <div class="box">
+                <label class="icon"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></label>
+                <input
+                  type="text"
+                  name="facebook-username"
+                  id="facebook-username"
+                  value="modyehab910"
+                />
+              </div>
+
+              <div class="box">
+                <label class="icon"><i class="fa-brands fa-youtube"></i></label>
+                <input
+                  type="text"
+                  name="youtube-username"
+                  id="youtube-username"
+                  value="MoMo Front-End"
+                />
+              </div>
+
+              <div class="box">
+                <label class="icon"><i class="fa-brands fa-github"></i></label>
+                <input
+                  type="text"
+                  name="github-username"
+                  id="github-username"
+                  value="modyehab810"
+                />
+              </div>
+            </div>
+          </section>
+          <!-- End Socila Info Box -->
+
+          <!-- Start Widgets Control Box -->
+          <section class="widget-control-box">
+            <div class="regular-box-tilte">
+              <h2 class="setting-box-name">widgets control</h2>
+              <p>hide/show dashboard widgets</p>
+            </div>
+
+            <div class="widgets">
+              <div>
+                <input
+                  type="checkbox"
+                  name="quick-draft-widget"
+                  id="quick-draft-widget"
+                  checked
+                />
+                <label for="quick-draft-widget">quick draft</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="statistics-widget"
+                  id="statistics-widget"
+                  checked
+                />
+                <label for="statistics-widget">Tickets Statistics</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="latest-task-widget"
+                  id="latest-task-widget"
+                  checked
+                />
+                <label for="latest-task-widget">Latest Tasks</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="top-search-widget"
+                  id="top-search-widget"
+                />
+                <label for="top-search-widget">Top Search Items</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="latest-upload-widget-draft"
+                  id="latest-upload-widget-draft"
+                  checked
+                />
+                <label for="latest-upload-widget-draft">Latest Upload</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="last-project-widget"
+                  id="last-project-widget"
+                />
+                <label for="last-project-widget">Last Project Progress</label>
+              </div>
+
+              <div>
+                <input
+                  type="checkbox"
+                  name="latest-post-widget"
+                  id="latest-post-widget"
+                  checked
+                />
+                <label for="latest-post-widget">latest Post</label>
+              </div>
+            </div>
+          </section>
+          <!-- End Widgets Control Box -->
+
+          <!-- Start Backup Manager Box -->
+          <section class="backup-manager-box">
+            <div class="regular-box-tilte">
+              <h2 class="setting-box-name">backup manager</h2>
+              <p>control bacup time & location</p>
+            </div>
+
+            <div class="backup-time">
+              <div>
+                <input type="radio" name="backup-time" id="daily" />
+                <label for="daily">daily</label>
+              </div>
+
+              <div>
+                <input type="radio" name="backup-time" id="weekly" checked />
+                <label for="weekly">weekly</label>
+              </div>
+
+              <div>
+                <input type="radio" name="backup-time" id="monthly" />
+                <label for="monthly">monthly</label>
+              </div>
+            </div>
+
+            <div class="backup-location">
+              <label>
+                <input type="radio" name="backup-location" id="AWS" />
+                <div>
+                  <span><i class="fa-solid fa-server"></i></span>
+                  <span>Google</span>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="backup-location" id="AWS" />
+                <div>
+                  <span><i class="fa-solid fa-server"></i></span>
+                  <span>zero</span>
+                </div>
+              </label>
+
+              <label>
+                <input type="radio" name="backup-location" id="AWS" checked />
+                <div>
+                  <span><i class="fa-solid fa-server"></i></span>
+                  <span>AWS</span>
+                </div>
+              </label>
+            </div>
+          </section>
+          <!-- End Backup Manager Box -->
+        </div>
+        <!-- End Wrapper -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

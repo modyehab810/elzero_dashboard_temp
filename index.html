@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard</title>
+    <!-- Normalization File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Used Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="sidebar">
+        <h3>HoBaa</h3>
+        <ul>
+          <li>
+            <a class="active" href="index.html">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="setting.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <!-- Start Header -->
+        <header>
+          <div class="search-wrapper">
+            <label for="serach-input">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input type="text" id="serach-input" placeholder="Type A Keyword" />
+          </div>
+          <div class="user-wrapper">
+            <button class="notification-btn">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="vector-btn">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </button>
+          </div>
+        </header>
+        <!-- End Header -->
+        <h1 class="main-header">Dashboard</h1>
+
+        <!-- Start Wrapper -->
+        <div class="wrapper">
+          <!-- Start Welcome Box -->
+          <section class="welcome-box">
+            <div class="intro regular-box-tilte">
+              <h2 class="widget-name">Welcome</h2>
+              <p>HoBaa</p>
+              <img src="imgs/welcome-img.png" alt="Welcome imgae" />
+            </div>
+            <div class="avatar">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </div>
+            <div class="welcome-body">
+              <div>
+                <span>Muhammad Ehab</span>
+                <span>Developer</span>
+              </div>
+              <div>
+                <span>10</span>
+                <span>Projects</span>
+              </div>
+              <div>
+                <span>$1500</span>
+                <span>Earned</span>
+              </div>
+            </div>
+
+            <a href="profile.html" class="go-profile-btn">Profile</a>
+          </section>
+          <!-- End Welcome Box -->
+
+          <!-- Start Quick Draft Box -->
+          <section class="draft-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">Quick Draft</h2>
+              <p>Write a Draft For Your Ideas</p>
+            </div>
+            <form action="">
+              <div>
+                <input
+                  type="text"
+                  name="title"
+                  id="title"
+                  placeholder="Title"
+                />
+              </div>
+              <div>
+                <textarea
+                  name="idea"
+                  id="idea"
+                  placeholder="Your Thoughts"
+                ></textarea>
+              </div>
+              <input type="button" value="Save" />
+            </form>
+          </section>
+          <!-- End Quick Draft Box -->
+
+          <!-- Start Yearly Targets Box -->
+          <section class="yearly-target-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">Yearly targets</h2>
+              <p>targets of the year</p>
+            </div>
+
+            <div class="targets">
+              <div class="target">
+                <div class="icon">
+                  <i class="fa-solid fa-dollar-sign"></i>
+                </div>
+                <div class="details">
+                  <p class="target-title">Money</p>
+                  <h5>$20.000</h5>
+                  <div class="prog">
+                    <span data-progress="80%"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="target">
+                <div class="icon"><i class="fa-solid fa-code"></i></div>
+                <div class="details">
+                  <p class="target-title">Projects</p>
+                  <h5>7</h5>
+                  <div class="prog">
+                    <span data-progress="60%"></span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="target">
+                <div class="icon"><i class="fa-solid fa-user"></i></div>
+                <div class="details">
+                  <p class="target-title">Team</p>
+                  <h5>9</h5>
+                  <div class="prog">
+                    <span data-progress="70%"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End statistics Box -->
+
+          <!-- Start Statistics Box -->
+          <section class="statistics-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">tickets statistics</h2>
+              <p>everything about support tickets</p>
+            </div>
+            <div class="tickets">
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-regular fa-rectangle-list"></i>
+                </div>
+                <h4>2500</h4>
+                <p>Total</p>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-solid fa-spinner"></i>
+                </div>
+                <h4>500</h4>
+                <p>Pending</p>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-regular fa-circle-check"></i>
+                </div>
+                <h4>1400</h4>
+                <p>Closed</p>
+              </div>
+              <div class="box">
+                <div class="icon">
+                  <i class="fa-regular fa-rectangle-xmark"></i>
+                </div>
+                <h4>40</h4>
+                <p>Deleted</p>
+              </div>
+            </div>
+          </section>
+          <!-- End statistics Box -->
+
+          <!-- Start Latest News Box -->
+          <section class="news-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">latest news</h2>
+            </div>
+
+            <div class="news">
+              <div class="box">
+                <img src="imgs/news-01.jpg" alt="News 01" />
+                <div class="news-details">
+                  <h4 class="news-title">Created Netflix Clone</h4>
+                  <p class="info">Netflix Landing and Showcase pagess</p>
+                </div>
+                <p class="date">2 Weeks Ago</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/news-02.jpg" alt="News 02" />
+                <div class="news-details">
+                  <h4 class="news-title">Created First Portfolio</h4>
+                  <p class="info">Simple Portfolio to display my works</p>
+                </div>
+                <p class="date">5 Days Ago</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/news-03.png" alt="News 03" />
+                <div class="news-details">
+                  <h4 class="news-title">Created JS E-Commerce</h4>
+                  <p class="info">Simple e-commerce to buy products</p>
+                </div>
+                <p class="date">3 Weeks Ago</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/news-04.png" alt="News 04" />
+                <div class="news-details">
+                  <h4 class="news-title">Created JS Customize Card</h4>
+                  <p class="info">Simple JS Project To Create Profile Card</p>
+                </div>
+                <p class="date">1 month Ago</p>
+              </div>
+            </div>
+          </section>
+          <!-- End Latest News Box -->
+
+          <!-- Start Latest Tasks Box -->
+          <section class="task-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">latest tasks</h2>
+            </div>
+
+            <div class="tasks">
+              <div class="box">
+                <div class="task-details">
+                  <h4 class="task-title">Created JS Password Generator</h4>
+                  <p class="info">Generate Complex Password</p>
+                </div>
+                <button class="delete-task-btn">
+                  <i class="fa-regular fa-trash-can"></i>
+                </button>
+              </div>
+
+              <div class="box">
+                <div class="task-details">
+                  <h4 class="task-title">Finish Showcase Netflix Page</h4>
+                  <p class="info">Display All Movies Categories</p>
+                </div>
+                <button class="delete-task-btn">
+                  <i class="fa-regular fa-trash-can"></i>
+                </button>
+              </div>
+
+              <div class="box finished">
+                <div class="task-details">
+                  <h4 class="task-title">Finish HTML Course</h4>
+                  <p class="info">Finish 38 HTML Lessons</p>
+                </div>
+                <button class="delete-task-btn">
+                  <i class="fa-regular fa-trash-can"></i>
+                </button>
+              </div>
+
+              <div class="box finished">
+                <div class="task-details">
+                  <h4 class="task-title">Finish CSS Course</h4>
+                  <p class="info">Finish 88 CSS Lessons</p>
+                </div>
+                <button class="delete-task-btn">
+                  <i class="fa-regular fa-trash-can"></i>
+                </button>
+              </div>
+
+              <div class="box">
+                <div class="task-details">
+                  <h4 class="task-title">Have To Finish JS Course</h4>
+                  <p class="info">188 JS Lessons</p>
+                </div>
+                <button class="delete-task-btn">
+                  <i class="fa-regular fa-trash-can"></i>
+                </button>
+              </div>
+            </div>
+          </section>
+          <!-- End Latest Tasks Box -->
+
+          <!-- Start Top search Items Box -->
+          <section class="top-search-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">top search items</h2>
+            </div>
+            <div class="search-table">
+              <table>
+                <thead>
+                  <tr>
+                    <td>Keyword</td>
+                    <td>Search Count</td>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>programming</td>
+                    <td>
+                      <span>25000</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>
+                      <span>130</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>Python</td>
+                    <td>
+                      <span>120</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>code</td>
+                    <td>
+                      <span>100</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>design</td>
+                    <td>
+                      <span> 99</span>
+                    </td>
+                  </tr>
+                  <tr>
+                    <td>projects</td>
+                    <td>
+                      <span> 87</span>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <!-- End Top Search Items Box -->
+
+          <!-- Start Upload Box -->
+          <section class="upload-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">latest upload</h2>
+            </div>
+            <div class="files">
+              <div class="box">
+                <img src="imgs/upload/pdf.png" alt="file 01" />
+                <div class="upload-details">
+                  <h4 class="file-title">my-file.pdf</h4>
+                  <p class="info">Sammy</p>
+                </div>
+                <p>2.4mb</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/upload/avi.png" alt="file 02" />
+                <div class="upload-details">
+                  <h4 class="file-title">one-piece.avi</h4>
+                  <p class="info">Te7a</p>
+                </div>
+                <p>120mb</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/upload/html.png" alt="file 03" />
+                <div class="upload-details">
+                  <h4 class="file-title">temp-4.html</h4>
+                  <p class="info">admin</p>
+                </div>
+                <p>1.1mb</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/upload/html.png" alt="file 04" />
+                <div class="upload-details">
+                  <h4 class="file-title">app-4.js</h4>
+                  <p class="info">elzero</p>
+                </div>
+                <p>0.85mb</p>
+              </div>
+
+              <div class="box">
+                <img src="imgs/upload/psd.png" alt="file 05" />
+                <div class="upload-details">
+                  <h4 class="file-title">web-design.psd</h4>
+                  <p class="info">omar</p>
+                </div>
+                <p>1GB</p>
+              </div>
+              <div class="box">
+                <img src="imgs/upload/zip.png" alt="file 05" />
+                <div class="upload-details">
+                  <h4 class="file-title">js_10_projects.zib</h4>
+                  <p class="info">admin</p>
+                </div>
+                <p>500mb</p>
+              </div>
+            </div>
+          </section>
+          <!-- End Upload  Box -->
+
+          <!-- Start Project Progress Box -->
+          <section class="projects-progress-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">last project progress</h2>
+            </div>
+
+            <div class="progress">
+              <div class="box finished">
+                <div class="prog-circle">
+                  <span></span>
+                </div>
+                <h4 class="task-title">Got The Project</h4>
+              </div>
+
+              <div class="box finished">
+                <div class="prog-circle">
+                  <span></span>
+                </div>
+                <h4 class="task-title">Started The Project</h4>
+              </div>
+
+              <div class="box finished">
+                <div class="prog-circle">
+                  <span></span>
+                </div>
+                <h4 class="task-title">The Project Abuot to Finish</h4>
+              </div>
+
+              <div class="box current">
+                <div class="prog-circle">
+                  <span></span>
+                </div>
+                <h4 class="task-title">Test the Project</h4>
+              </div>
+
+              <div class="box">
+                <div class="prog-circle">
+                  <span></span>
+                </div>
+                <h4 class="task-title">finish rhe project & get money</h4>
+              </div>
+            </div>
+            <img src="imgs/rocket.gif" alt="" />
+          </section>
+          <!-- End Project Progress Box -->
+
+          <!-- End Reminders Box -->
+          <section class="reminder-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">Reminders</h2>
+            </div>
+
+            <div class="reminders">
+              <div class="box">
+                <div class="reminder-importance"></div>
+                <div class="details">
+                  <h4 class="task-title">check my task</h4>
+                  <p>28/8/2022 - 12:00PM</p>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="reminder-importance"></div>
+                <div class="details">
+                  <h4 class="task-title">check my projects</h4>
+                  <p>26/9/2022 - 11:10PM</p>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="reminder-importance"></div>
+                <div class="details">
+                  <h4 class="task-title">call my clients</h4>
+                  <p>1/10/2022 - 6:30PM</p>
+                </div>
+              </div>
+
+              <div class="box">
+                <div class="reminder-importance"></div>
+                <div class="details">
+                  <h4 class="task-title">finish Elzero Dashboard</h4>
+                  <p>2/10/2022 - 12:00AM</p>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Reminders Box -->
+
+          <!-- Start Latest Post Box -->
+          <section class="latest-post-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">latest post</h2>
+            </div>
+
+            <div class="post-info">
+              <div class="user">
+                <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+                <div class="user-info">
+                  <h4>Muhammad Ehab</h4>
+                  <p>About 2 Hours ago</p>
+                </div>
+              </div>
+              <p class="post">
+                For the last three years, Teikou Middle School has dominated the
+                national basketball scene with its legendary lineup: the
+                "Generation of Miracles." It consisted of five prodigies who
+                excelled at the sport, but a "Phantom Sixth Man" lurked in the
+                shadows and helped earn the team their revered status.
+              </p>
+              <div class="like">
+                <div>
+                  <span><i class="fa-regular fa-heart"></i></span>
+                  1.5K
+                </div>
+                <div>
+                  <span><i class="fa-regular fa-comment"></i></span>
+                  200
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Latest Post Box -->
+          <!-- Start Social Media Box -->
+          <section class="socila-media-box">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">Socila media status</h2>
+            </div>
+            <div class="social-media">
+              <div class="box">
+                <span class="icon"><i class="fa-brands fa-twitter"></i></span>
+                <p>90K Followers</p>
+                <span class="badge">follow</span>
+              </div>
+
+              <div class="box">
+                <span class="icon"
+                  ><i class="fa-brands fa-facebook-f"></i
+                ></span>
+                <p>2.5M Like</p>
+                <span class="badge">like</span>
+              </div>
+
+              <div class="box">
+                <span class="icon"><i class="fa-brands fa-youtube"></i></span>
+                <p>1M Sub</p>
+                <span class="badge">subscribe</span>
+              </div>
+
+              <div class="box">
+                <span class="icon"><i class="fa-brands fa-github"></i></span>
+                <p>50K Starts</p>
+                <span class="badge">star</span>
+              </div>
+            </div>
+          </section>
+          <!-- End Social Media Box -->
+        </div>
+        <!-- End Wrapper -->
+
+        <!-- Start Projects Box -->
+        <section class="projects-box">
+          <div class="regular-box-tilte">
+            <h2 class="widget-name">projects</h2>
+          </div>
+          <div class="projects-table">
+            <table>
+              <thead>
+                <tr>
+                  <th>name</th>
+                  <th>finish date</th>
+                  <th>client</th>
+                  <th>price</th>
+                  <th>team</th>
+                  <th>status</th>
+                </tr>
+              </thead>
+              <tbody>
+                <tr>
+                  <td>Netflix Clone</td>
+                  <td>5 Sep, 2022</td>
+                  <td>TV Show</td>
+                  <td>$4500</td>
+                  <td>
+                    <img src="imgs/team/team01.jpg" alt="member 01" />
+                    <img src="imgs/team/team02.png" alt="member 02" />
+                    <img src="imgs/team/team03.jpg" alt="member 03" />
+                    <img src="imgs/team/team04.jpg" alt="member 04" />
+                    <img src="imgs/team/team05.jpg" alt="member 05" />
+                  </td>
+                  <td>
+                    <span class="completed">completed</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Sammy Portfolio</td>
+                  <td>21 Sep, 2022</td>
+                  <td>Muhammad Sammy</td>
+                  <td>$500</td>
+                  <td>
+                    <img src="imgs/team/team01.jpg" alt="member 01" />
+                    <img src="imgs/team/team02.png" alt="member 02" />
+                  </td>
+                  <td>
+                    <span class="completed">completed</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>ZooZ Commerce</td>
+                  <td>21 Nov, 2022</td>
+                  <td>ZooZ Company</td>
+                  <td>$5500</td>
+                  <td>
+                    <img src="imgs/team/team01.jpg" alt="member 01" />
+                    <img src="imgs/team/team02.png" alt="member 02" />
+                    <img src="imgs/team/team03.jpg" alt="member 03" />
+                  </td>
+                  <td>
+                    <span class="inprogress">In Progress</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Medical History</td>
+                  <td>20 Aug, 2022</td>
+                  <td>Government</td>
+                  <td>$8500</td>
+                  <td>
+                    <img src="imgs/team/team01.jpg" alt="member 01" />
+                    <img src="imgs/team/team02.png" alt="member 02" />
+                    <img src="imgs/team/team03.jpg" alt="member 03" />
+                    <img src="imgs/team/team04.jpg" alt="member 04" />
+                    <img src="imgs/team/team05.jpg" alt="member 05" />
+                    <img src="imgs/team/team06.png" alt="member 06" />
+                  </td>
+                  <td>
+                    <span class="pending">pending</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Translation Website</td>
+                  <td>20 Sep, 2022</td>
+                  <td>Translatopia</td>
+                  <td>$3500</td>
+                  <td>
+                    <img src="imgs/team/team01.jpg" alt="member 01" />
+                    <img src="imgs/team/team02.png" alt="member 02" />
+                    <img src="imgs/team/team03.jpg" alt="member 03" />
+                    <img src="imgs/team/team04.jpg" alt="member 04" />
+                  </td>
+                  <td>
+                    <span class="rejected">rejected</span>
+                  </td>
+                </tr>
+
+                <tr>
+                  <td>Otaku Shop</td>
+                  <td>22 Oct, 2022</td>
+                  <td>Otaku Zone</td>
+                  <td>$1450</td>
+                  <td>
+                    <img src="imgs/team/team01.jpg" alt="member 01" />
+                    <img src="imgs/team/team02.png" alt="member 02" />
+                    <img src="imgs/team/team05.jpg" alt="member 05" />
+                  </td>
+                  <td>
+                    <span class="inprogress">in progress</span>
+                  </td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+        <!-- End Projects Box -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

@@ -1,0 +1,319 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Friends Profile</title>
+    <!-- Normalization File -->
+    <link rel="stylesheet" href="css/normalize.css" />
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="css/all.min.css" />
+    <!-- Main Style File -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Used Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700;800&display=swap"
+    />
+  </head>
+  <body>
+    <div class="page-container">
+      <aside class="sidebar">
+        <h3>HoBaa</h3>
+        <ul>
+          <li>
+            <a href="index.html">
+              <i class="fa-solid fa-gauge-high"></i>
+              <span>dashboard</span>
+            </a>
+          </li>
+          <li>
+            <a href="setting.html">
+              <i class="fa-solid fa-gears"></i>
+              <span>settings</span>
+            </a>
+          </li>
+          <li>
+            <a href="profile.html">
+              <i class="fa-solid fa-user"></i>
+              <span>profile</span>
+            </a>
+          </li>
+          <li>
+            <a href="projects.html">
+              <i class="fa-solid fa-diagram-project"></i>
+              <span>projects</span>
+            </a>
+          </li>
+          <li>
+            <a href="courses.html">
+              <i class="fa-solid fa-graduation-cap"></i>
+              <span>courses</span>
+            </a>
+          </li>
+          <li>
+            <a href="friends.html">
+              <i class="fa-solid fa-user-group"></i>
+              <span>friends</span>
+            </a>
+          </li>
+          <li>
+            <a href="files.html">
+              <i class="fa-solid fa-file"></i>
+              <span>files</span>
+            </a>
+          </li>
+          <li>
+            <a href="plans.html">
+              <i class="fa-solid fa-rectangle-list"></i>
+              <span>plans</span>
+            </a>
+          </li>
+        </ul>
+      </aside>
+      <div class="content-area">
+        <!-- Start Header -->
+        <header>
+          <div class="search-wrapper">
+            <label for="serach-input">
+              <i class="fa-solid fa-search"></i>
+            </label>
+            <input type="text" id="serach-input" placeholder="Type A Keyword" />
+          </div>
+          <div class="user-wrapper">
+            <button class="notification-btn">
+              <i class="fa-solid fa-bell"></i>
+            </button>
+            <button class="vector-btn">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </button>
+          </div>
+        </header>
+        <!-- End Header -->
+        <h1 class="main-header">Friend Profile</h1>
+
+        <!-- Start Friend Profile Page -->
+        <div class="friend-profile-page">
+          <!-- Start Welcome Box -->
+          <section class="friend-info">
+            <div class="image-background"></div>
+            <div class="avatar">
+              <img src="imgs/user-avatar.jpg" alt="User Avatar" />
+            </div>
+            <div class="friend-contributions">
+              <div>
+                <span class="cont-number">22</span>
+                <span class="cont-name">F</span>
+              </div>
+              <div>
+                <span class="cont-number">95</span>
+                <span class="cont-name">Projects</span>
+              </div>
+              <div>
+                <span class="cont-number">1005</span>
+                <span class="cont-name">Articles</span>
+              </div>
+            </div>
+            <div class="name-info">
+              <h4 class="the-name">Muhammad Zezo</h4>
+              <p class="job-title">Front-end Web Development</p>
+            </div>
+            <div class="rating">
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+              <span><i class="fa-solid fa-star"></i></span>
+            </div>
+          </section>
+          <!-- End Welcome Box -->
+
+          <!-- Start Welcome Box -->
+          <section class="friend-skills">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">my Skills</h2>
+            </div>
+            <div class="skills-table">
+              <table>
+                <thead>
+                  <tr>
+                    <th>Skills</th>
+                    <th>Percentage</th>
+                    <th>Progress</th>
+                  </tr>
+                </thead>
+                <tbody>
+                  <tr>
+                    <td>HTML</td>
+                    <td>70%</td>
+                    <td>
+                      <div class="progress-bar">
+                        <span
+                          class="progress from_50_to_79"
+                          style="width: 70%"
+                        ></span>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>CSS</td>
+                    <td>88%</td>
+                    <td>
+                      <div class="progress-bar">
+                        <span
+                          class="progress from_80_to_100"
+                          style="width: 88%"
+                        ></span>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>JavaScript</td>
+                    <td>45%</td>
+                    <td>
+                      <div class="progress-bar">
+                        <span
+                          class="progress from_30_to_49"
+                          style="width: 45%"
+                        ></span>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Bootstrap</td>
+                    <td>29%</td>
+                    <td>
+                      <div class="progress-bar">
+                        <span
+                          class="progress from_0_to_29"
+                          style="width: 29%"
+                        ></span>
+                      </div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td>Sass</td>
+                    <td>20%</td>
+                    <td>
+                      <div class="progress-bar">
+                        <span
+                          class="progress from_0_to_29"
+                          style="width: 20%"
+                        ></span>
+                      </div>
+                    </td>
+                  </tr>
+                </tbody>
+              </table>
+            </div>
+          </section>
+          <!-- End Welcome Box -->
+
+          <!-- Start Welcome Box -->
+          <section class="friend-projects">
+            <div class="regular-box-tilte">
+              <h2 class="widget-name">my top projects</h2>
+            </div>
+
+            <div class="projects-container">
+              <!-- Project Box -->
+              <div class="project-box">
+                <div class="project-tilte">
+                  <h4 class="project-name">traveling website</h4>
+                  <p class="project-info">
+                    traveling website programming, and hosting.
+                  </p>
+                </div>
+                <div class="project-category">
+                  <span class="label">programming</span>
+                  <span class="label">hosting</span>
+                  <span class="label">marketing</span>
+                </div>
+                <div class="project-cost">
+                  <div class="project-prog">
+                    <span class="almost-completed" style="width: 88%"></span>
+                  </div>
+                  <span>$1200</span>
+                </div>
+              </div>
+
+              <!-- Project Box -->
+              <div class="project-box">
+                <div class="project-tilte">
+                  <h4 class="project-name">Otaku Shop</h4>
+                  <p class="project-info">
+                    traveling website programming, and hosting.
+                  </p>
+                </div>
+                <div class="project-category">
+                  <span class="label">programming</span>
+                  <span class="label">hosting</span>
+                  <span class="label">marketing</span>
+                </div>
+                <div class="project-cost">
+                  <div class="project-prog">
+                    <span class="completed" style="width: 100%"></span>
+                  </div>
+                  <span>$1900</span>
+                </div>
+              </div>
+
+              <!-- Project Box -->
+              <div class="project-box">
+                <div class="project-tilte">
+                  <h4 class="project-name">Educational Wbsite</h4>
+                  <p class="project-info">
+                    Educational Wbsite programming, and hosting.
+                  </p>
+                </div>
+                <div class="project-category">
+                  <span class="label">programming</span>
+                  <span class="label">hosting</span>
+                  <span class="label">marketing</span>
+                </div>
+                <div class="project-cost">
+                  <div class="project-prog">
+                    <span class="just-start" style="width: 10%"></span>
+                  </div>
+                  <span>$5000</span>
+                </div>
+              </div>
+
+              <!-- Project Box -->
+              <div class="project-box">
+                <div class="project-tilte">
+                  <h4 class="project-name">E-Commerce</h4>
+                  <p class="project-info">
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                  </p>
+                </div>
+                <div class="project-category">
+                  <span class="label">programming</span>
+                  <span class="label">marketing</span>
+                </div>
+                <div class="project-cost">
+                  <div class="project-prog">
+                    <span class="almost-completed" style="width: 60%"></span>
+                  </div>
+                  <span>$300</span>
+                </div>
+              </div>
+            </div>
+          </section>
+          <!-- End Welcome Box -->
+        </div>
+        <!-- End Friend Profile Page -->
+      </div>
+    </div>
+    <!-- Script -->
+    <script src="js/all.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
